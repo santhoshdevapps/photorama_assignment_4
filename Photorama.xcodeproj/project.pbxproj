@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C33F24620607E4D005E1A1A /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */; };
 		5C5D25CE20574D8D00A95C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D25CD20574D8D00A95C61 /* AppDelegate.swift */; };
 		5C5D25D320574D8D00A95C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D25D120574D8D00A95C61 /* Main.storyboard */; };
 		5C5D25D520574D8D00A95C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5D25D420574D8D00A95C61 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		5C5D25CA20574D8D00A95C61 /* Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5D25CD20574D8D00A95C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C5D25D220574D8D00A95C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				5C5D25E1205751AA00A95C61 /* FlickrAPI.swift */,
 				5C5D25E32057578B00A95C61 /* PhotoStore.swift */,
 				5C5D25E520575BB900A95C61 /* Photo.swift */,
+				5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				5C5D25E2205751AA00A95C61 /* FlickrAPI.swift in Sources */,
 				5C5D25E020574DAE00A95C61 /* PhotosViewController.swift in Sources */,
 				5C5D25E42057578B00A95C61 /* PhotoStore.swift in Sources */,
+				5C33F24620607E4D005E1A1A /* PhotoDataSource.swift in Sources */,
 				5C5D25CE20574D8D00A95C61 /* AppDelegate.swift in Sources */,
 				5C5D25E620575BB900A95C61 /* Photo.swift in Sources */,
 			);
