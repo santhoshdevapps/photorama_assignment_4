@@ -35,6 +35,23 @@ class PhotosViewController: UIViewController, UICollectionViewDelegate {
         
     }
 
+//    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath)
+//    {
+//      //  println("User tapped on image # \(indexPath.row)")
+//        
+//        
+//        let myImageViewPage:MyImageViewController = self.storyboard?.instantiateViewController(withIdentifier: "MyImageViewController") as! MyImageViewController
+//        
+//        
+//        let imageHolder = self.images[indexPath.row] as! [String:AnyObject]
+//        let imagePreviewString = imageHolder["preview"] as! String
+//        
+//        myImageViewPage.selectedImage = imagePreviewString
+//        
+//        self.navigationController?.pushViewController(myImageViewPage, animated: true)
+//        
+//    }
+    
     func  collectionView(_ collectionView: UICollectionView, willDisplay cell : UICollectionViewCell, forItemAt  indexPath: IndexPath) {
         let photo = photoDataSource.photos[indexPath.row]
         

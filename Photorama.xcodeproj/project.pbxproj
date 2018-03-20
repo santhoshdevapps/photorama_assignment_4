@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18DC5720609ED7000F0419 /* MyImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18DC5620609ED7000F0419 /* MyImageViewController.swift */; };
 		5C33F24620607E4D005E1A1A /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */; };
 		5C33F2482060855F005E1A1A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33F2472060855F005E1A1A /* PhotoCollectionViewCell.swift */; };
 		5C5D25CE20574D8D00A95C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D25CD20574D8D00A95C61 /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C18DC5620609ED7000F0419 /* MyImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageViewController.swift; sourceTree = "<group>"; };
 		5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		5C33F2472060855F005E1A1A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C5D25CA20574D8D00A95C61 /* Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 				5C5D25E520575BB900A95C61 /* Photo.swift */,
 				5C33F24520607E4D005E1A1A /* PhotoDataSource.swift */,
 				5C33F2472060855F005E1A1A /* PhotoCollectionViewCell.swift */,
+				5C18DC5620609ED7000F0419 /* MyImageViewController.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5C33F24620607E4D005E1A1A /* PhotoDataSource.swift in Sources */,
 				5C33F2482060855F005E1A1A /* PhotoCollectionViewCell.swift in Sources */,
 				5C5D25CE20574D8D00A95C61 /* AppDelegate.swift in Sources */,
+				5C18DC5720609ED7000F0419 /* MyImageViewController.swift in Sources */,
 				5C5D25E620575BB900A95C61 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2BULHRS882;
+				DEVELOPMENT_TEAM = 2RB7FA5DGS;
 				INFOPLIST_FILE = Photorama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "centennial-college.Photorama";
@@ -310,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2BULHRS882;
+				DEVELOPMENT_TEAM = 2RB7FA5DGS;
 				INFOPLIST_FILE = Photorama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "centennial-college.Photorama";
